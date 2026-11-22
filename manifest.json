@@ -79,7 +79,9 @@
           "source": "lsp",
           "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rand_core-0.6.4/src/lib.rs"
         }
-      ]
+      ],
+      "repolex": "aggregate/repolex/9f29e79f9832dbd0ae5220acb17c1866745bdecd/chunk-001.nq.gz",
+      "dep": "dep/9f29e79f9832dbd0ae5220acb17c1866745bdecd.nq.gz"
     }
   ],
   "commit": "commit/commit.nq.gz",
