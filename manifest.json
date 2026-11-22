@@ -42,6 +42,43 @@
       ],
       "ast": [
         "aggregate/ast/9f29e79f9832dbd0ae5220acb17c1866745bdecd/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/9f29e79f9832dbd0ae5220acb17c1866745bdecd.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "criterion",
+          "ecosystem": "CARGO",
+          "version": "0.3.5",
+          "githubOrg": "criterion-rs",
+          "githubRepo": "criterion.rs",
+          "githubCommit": "4e773a3b8523a73e7105e11f0b2d4b545827712e",
+          "githubTag": "0.3.5",
+          "githubUrl": "https://github.com/criterion-rs/criterion.rs",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "rand",
+          "ecosystem": "CARGO",
+          "version": "0.8.5",
+          "githubOrg": "rust-random",
+          "githubRepo": "rand",
+          "githubCommit": "937320cbfeebd4352a23086d9c6e68f067f74644",
+          "githubTag": "0.8.5",
+          "githubUrl": "https://github.com/rust-random/rand",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "rand_core",
+          "ecosystem": "CARGO",
+          "version": "0.6.4",
+          "githubOrg": "rust-random",
+          "githubRepo": "rand_core",
+          "githubCommit": "89a1336b934c68ddce548127c6f8afd910b35a18",
+          "githubTag": "v0.6.4",
+          "githubUrl": "https://github.com/rust-random/rand_core",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rand_core-0.6.4/src/lib.rs"
+        }
       ]
     }
   ],
